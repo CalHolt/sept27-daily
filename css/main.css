@@ -12,8 +12,8 @@ section {
   margin: auto;
   align-items: center;
 
-  width: 85vmin;
-  height: 85vmin;
+  width: 85vw;
+  height: 85vh;
   
   grid-template-rows: repeat(8, 1fr);
   grid-template-columns: repeat(8, 1fr);
