@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  height: 100vh;
+  background-color: brown;
+}
+
+section {
+  display: grid;
+  
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  
+
+  width: 60vw;
+  height: 60vh;
+  
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(8, 1fr);
+}
+
+article {
+  width: 100%;
+  height: 100%;
+}
+
+.row2:nth-child(even) {
+  background-color: black;
+
+}
+
+.row2:nth-child(odd) {
+  background-color: white;
+}
+
+.row1:nth-child(even) {
+  background-color: white;
+}
+
+.row1:nth-child(odd) {
+  background-color: black;
+}
